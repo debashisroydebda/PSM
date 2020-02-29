@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About | PSM</title>
+
+        <!--FAVICON-->
+        <link rel="icon" href="images/fav-icon.png" type="image/x-icon">
+
+        <!-- MOBILE RESPONSIVE META -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+
+        <!-- SLICK SLIDER -->
+        <link rel="stylesheet" href="css/slick.css">
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- ANIMATION CSS -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- AOS -->
+        <link rel="stylesheet" href="css/aos.css">
+        <!-- VENOBOX POPUP -->
+        <link rel="stylesheet" href="css/venobox.css">
+        <!-- CHART JS -->
+        <script src="js/Chart.bundle.js"></script>
+
+        <!-- MAIN STYLESHEET -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- START PRELOADER -->
+        <div class="preloader">
+            <div class="spin"></div>
+        </div>
+        <!-- PRELOADER END -->
+
+
+        <!-- START HEADER PART -->
+        <header>
+            <!-- TOP HEADER -->
+            <div class="top-header bg-secondary pt-4 pb-2">
+                <div class="t-header-conainer-part" id="t-header-container">
+                    <div class="row align-items-center">
+                        <!-- MAIL AND PHONE -->
+                        <div class="col-lg-4 col-md-12 text-md-left text-center">
+
+                        </div>
+
+                        <!-- SOCIAL ICONS -->
+                        <div class="col-lg-8 col-md-12 text-center text-md-right">
+                            <ul class="list-inline d-inline-block">
+                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="callto:01791404169"><span class="fa fa-phone pr-1"></span> 021-6247741</a></li>
+                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="mailto:info@gouranggo.com"><span class="fa fa-envelope pr-1"></span> sales@psm-petro.com</a></li>
+                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NAVIGATION -->
+            <div class="navigation bg-white position-relative">
+                <div class="conainer-part" id="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"><img class="img-fluid" id="main-logo" src="images/main-logo.png" alt="PSM-PETRO"></a>
+                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+                                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse text-center" id="navigation">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="our-service.html">Our Service</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portfolio">Our Poducts</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+                                </li>
+                            </ul>                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER PART END -->
+
+
+        <!-- The Modal -->
+        <div class="modal" id="getQuoteModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header text-center">
+                        <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-map-marker"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-map-marker"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-circle-o"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-circle-o"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- page title -->
+        <section class="section bg-cover overlay margin-top-m" data-background="images/page-title.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white mb-3">About Us</h2>
+                        <!-- breadcrumb -->
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb bg-transparent p-0">
+                                <li class="breadcrumb-item font-weight-semebold"><a class="text-white" href="index.html">Home</a></li>
+                                <li class="breadcrumb-item font-weight-semebold active text-primary">About Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /page title -->
+        <section class="section" id="aboutUs">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-8">
+                        <p class="subtitle">About Us</p>
+                        <span class="section-title-border"></span>
+                        <img class="img-fluid  pr-5 mb-3" src="images/about.png" alt="About" style="height: 200px;">
+                        <h2 class="section-title mb-4">About Our Company</h2>
+                        <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                        
+                        <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                        
+                    </div>
+
+                    <!-- SIDEBAR -->
+                    <aside class="col-lg-4">
+                        <!-- LATEST POST -->
+                        <div class="bg-white px-4 py-5 box-shadow mb-5">
+                            <h4 class="mb-4">Latest Post</h4>
+                            <!-- POST-ITEM -->
+                            <div class="media border-bottom border-color pb-3 mb-3">
+                                <img class="mr-3" src="images/recent-post-1.jpg" alt="post-thumb">
+                                <div class="media-body">
+                                    <h5 class="mt-0"><a href="blog-single.html" class="text-dark">aiusmod tempor labore did dolory</a></h5>
+                                    Feb 02 2020
+                                </div>
+                            </div>
+
+                            <!-- POST-ITEM -->
+                            <div class="media border-bottom border-color pb-3 mb-3">
+                                <img class="mr-3" src="images/recent-post-2.jpg" alt="post-thumb">
+                                <div class="media-body">
+                                    <h5 class="mt-0"><a href="blog-single.html" class="text-dark">aiusmod tempor labore did dolory</a></h5>
+                                    Feb 02 2020
+                                </div>
+                            </div>
+
+                            <!-- POST-ITEM -->
+                            <div class="media">
+                                <img class="mr-3" src="images/recent-post-3.jpg" alt="post-thumb">
+                                <div class="media-body">
+                                    <h5 class="mt-0"><a href="blog-single.html" class="text-dark">aiusmod tempor labore did dolory</a></h5>
+                                    Feb 02 2020
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </div>
+        </section>
+
+        
+         <section class="section bg-gray">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6">
+
+                        <img class="img-fluid float-left  mb-3" src="images/banner-5.jpg" alt="About" style="height: 200px; border: 6px solid #fff;">
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="subtitle" style="padding-top: 60px;">Vission<span class="section-title-border"></span></p>
+                        <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-6">
+                        <p class="subtitle">Mission<span class="section-title-border"></span></p>
+                        <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img class="img-fluid float-right mb-3" src="images/banner-6.jpg" alt="About" style="height: 200px; border: 6px solid #fff;">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="funfacts">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-12">
+                        <h2 class="section-title text-center text-white"><span style="font-weight: normal;">Facts & </span>FIGURES!</h2>
+                    </div>
+
+                    <!-- FUNFACTS ITEM -->
+                    <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid" src="images/icon/26.png" alt="icon">
+                            <div>
+                                <h4 class="text-white mb-0"><span class="count" data-count="10">10</span></h4>
+                                <span class="text-white">Years</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FUNFACTS ITEM -->
+                    <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center+">
+                            <img class="img-fluid" src="images/icon/27.png" alt="icon">
+                            <div>
+                                <h4 class="text-white mb-0"><span class="count" data-count="2500">2500</span>+</h4>
+                                <span class="text-white">Agencies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FUNFACTS ITEM -->
+                    <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid" src="images/icon/28.png" alt="icon">
+                            <div>
+                                <h4 class="text-white mb-0"><span class="count" data-count="10000">100000</span>+</h4>
+                                <span class="text-white">Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- START CONTACT US SECTION -->
+        <section class="section position-relative" id="contactUS" data-background="images/map.png" style=" background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+
+
+                <div class="row p-5">
+
+                    <div class="col-md-7 mb-6 mb-md-0">
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <form action="#" class="shadow-lg" style="background-color: #fff;">
+                            <div class="contact-us-text">
+                                CONTACT US
+                            </div>
+                            <div class="row" style="padding: 0px 30px 60px 30px;">
+                                <div class="col-md-6">
+                                    <label for="firstName">First Name</label>
+                                    <input name="name" id="firstName" class="form-control rounded-0 mb-2" placeholder="First name" type="text" required="required">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="lastName">Last Name</label>
+                                    <input name="name" id="lastName" class="form-control rounded-0 mb-2" placeholder="Last name" type="text" required="required">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="e-mail">E-mail</label>
+                                    <input name="mail" id="e-mail" class="form-control rounded-0 mb-2" placeholder="E-mail" type="email" required="required">
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="website">Website</label>
+                                    <input name="website" id="website" class="form-control rounded-0 mb-2" placeholder="Website" type="text">
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="comments">Comments</label>
+                                    <textarea name="comments" id="comments" class="form-control rounded-0 mb-3 py-3 px-4" placeholder="Write your message" required="required"></textarea>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button type="submit" value="send" class="btn btn-primary hover-ripple">send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BACKGROUND SHAPES -->
+            <img class="img-fluid blog-shape-left" src="images/blog-bg-left.png" alt="">
+        </section>
+        <!-- CONTACT US SECTION END -->
+
+
+        <!-- START FOOTER PART -->
+        <footer>
+            <!-- MAIN FOOTER -->
+            <div class="section bg-secondary">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <!-- FOOTER CONTENT -->
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <!-- LOGO -->
+                            <div class="text-center">
+                                <a class="mb-4 d-inline-block" href="index.html"><img class="img-fluid mx-auto d-block" src="images/logo-t.png" alt="PSM-PETRO" style="height: 150px;"></a>
+                            </div>
+
+
+                            <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
+                                labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
+                                commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                                error sit voluptatem.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <h4 class="text-white mb-4">Our Interior Services</h4>
+                                    <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.</p>
+                                </div>
+
+                                <!-- SERVICE LIST -->
+                                <div class="col-md-4 col-sm-12 mb-5">
+                                    <h4 class="text-white mb-4">Our Supports</h4>
+                                    <ul class="list-styled">
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="col-md-4 col-sm-12 mb-5">
+                                    <h4 class="text-white mb-4">Contact Info</h4>
+                                    <ul class="list-unstyled">
+                                        <li class="text-light mb-3"><span class="fa fa-home h4 pr-2 text-t-c"></span> Office- Kh-00, Road #00, City- ABCD, Post Code- 00AB</li>
+                                        <li class="text-light mb-3"><span class="fa fa-phone h4 pr-2 text-t-c"></span> 021-6247741</li>
+                                        <li class="text-light mb-3"><span class="fa fa-envelope h4 pr-2 text-t-c"></span> sales@psm-petro.com</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 mb-5 text-right">
+
+
+                                    <!-- SOCIAL LINKS -->
+                                    <ul class="list-inline social-icon-alt mb-4 footer-social-icon">
+                                        <li class="list-inline-item">
+                                            <h4 class="text-white mb-4">Follow Us On</h4>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+
+                                    <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+                                    <form action="#">
+                                        <div class="position-relative">
+                                            <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
+                                                   placeholder="Enter your email">
+                                            <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="bg-secondary-darken py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                            <p class="mb-0 text-white"><span class="font-weight-bold"><a href="http://dr.alaponit.com/" class="text-light" target="blank">DEBDA</a></span> &copy; <script>
+                                var CurrentYear = new Date().getFullYear()
+                                document.write(CurrentYear)
+                                </script> All Right Reserved</p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-right">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER PART END  -->
+
+
+        <!-- START BODY SCROLL TO UP SECTION -->
+        <div class="body-scrollup" data-wow-duration="2s">
+            <span class="fa fa-chevron-up"></span>
+        </div>
+        <!-- BODY SCROLL TO UP SECTION END -->
+
+
+
+
+        <!-- JQUERY -->
+        <!--<script src="js/jquery.min.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- BOOTSTRAP JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- SLICK SLIDER -->
+        <script src="js/slick.min.js"></script>
+        <!-- AOS -->
+        <script src="js/aos.js"></script>
+        <!-- VENOBOX POPUP -->
+        <script src="js/venobox.min.js"></script>
+        <!-- MODERNIZER -->
+        <script src="js/modernizr.min.js"></script>
+        <!-- FILTER -->
+        <script src="js/jquery.filterizr.min.js"></script>
+        <!-- GOOGLE MAP -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+        <script src="js/gmap.js"></script>
+
+
+        <!-- MAIN SCRIPT -->
+        <script src="js/script.js"></script>       
+    </body>
+</html>
