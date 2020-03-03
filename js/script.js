@@ -9,30 +9,30 @@
 
     $(document).on("scroll", onScroll);
 
-    $('a[href^="#"]').on('click', function (e) {
-        e.preventDefault();
-        $(document).off("scroll");
-
-        $('a').each(function () {
-            $(this).removeClass('active');
-            if ($(window).width() < 768) {
-                $('.nav-menu').slideUp();
-            }
-        });
-
-        $(this).addClass('active');
-
-        var target = this.hash,
-                menu = target;
-
-        target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': target.offset().top - 0
-        }, 500, 'swing', function () {
-            window.location.hash = target.selector;
-            $(document).on("scroll", onScroll);
-        });
-    });
+//    $('a[href^="#"]').on('click', function (e) {
+//        e.preventDefault();
+//        $(document).off("scroll");
+//
+//        $('a').each(function () {
+//            $(this).removeClass('active');
+//            if ($(window).width() < 768) {
+//                $('.nav-menu').slideUp();
+//            }
+//        });
+//
+//        $(this).addClass('active');
+//
+//        var target = this.hash,
+//                menu = target;
+//
+//        target = $(target);
+//        $('html, body').stop().animate({
+//            'scrollTop': target.offset().top - 0
+//        }, 500, 'swing', function () {
+//            window.location.hash = target.selector;
+//            $(document).on("scroll", onScroll);
+//        });
+//    });
 
 
     function onScroll(event) {
@@ -71,8 +71,8 @@
         autoplay: true,
         infinite: true,
         arrows: true,
-        prevArrow: '<button type=\'button\' class=\'prevArrow\'></button>',
-        nextArrow: '<button type=\'button\' class=\'nextArrow\'></button>',
+        prevArrow: '<button type=\'button\' class=\'prevArrow\'><span class=\'fa fa-chevron-left\'></span></button>',
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><span class=\'fa fa-chevron-right\'></span></button>',
         dots: false,
         autoplaySpeed: 7000,
         pauseOnFocus: false,
@@ -324,43 +324,108 @@ var date = new Date();
 var today = new Date(date.getFullYear(), date.getMonth(), date.getDate());
 
 var optSimple = {
-  format: 'mm-dd-yyyy',
-  todayHighlight: true,
-  orientation: 'bottom right',
-  autoclose: true,
-  container: '#sandbox'
+    format: 'mm-dd-yyyy',
+    todayHighlight: true,
+    orientation: 'bottom right',
+    autoclose: true,
+    container: '#sandbox'
 };
 
 var optComponent = {
-  format: 'mm-dd-yyyy',
-  container: '#datePicker',
-  orientation: 'auto top',
-  todayHighlight: true,
-  autoclose: true
+    format: 'mm-dd-yyyy',
+    container: '#datePicker',
+    orientation: 'auto top',
+    todayHighlight: true,
+    autoclose: true
 };
 
 // SIMPLmoveDateE
-$( '#moveDate' ).datepicker( optSimple );
+$('#moveDate').datepicker(optSimple);
 
 // COMPONENT
-$( '#datePicker' ).datepicker( optComponent );
+$('#datePicker').datepicker(optComponent);
 
 // ===================================
 
-$( '#datepicker1' ).datepicker({
-  format: "mm : dd : yyyy",
-  todayHighlight: true,
-  autoclose: true,
-  container: '#box1',
-  orientation: 'top right'
+$('#datepicker1').datepicker({
+    format: "mm : dd : yyyy",
+    todayHighlight: true,
+    autoclose: true,
+    container: '#box1',
+    orientation: 'top right'
 });
 
-$( '#datepicker2' ).datepicker({
-  format: 'mm \\ dd \\ yyyy',
-  todayHighlight: true,
-  autoclose: true,
-  container: '#box2',
-  orientation: 'top right'
+$('#datepicker2').datepicker({
+    format: 'mm \\ dd \\ yyyy',
+    todayHighlight: true,
+    autoclose: true,
+    container: '#box2',
+    orientation: 'top right'
 });
 
-$( '#datepicker1, #datepicker2, #simple, #datePicker' ).datepicker( 'setDate', today );
+$('#datepicker1, #datepicker2, #simple, #datePicker').datepicker('setDate', today);
+
+
+
+/**/
+
+
+
+$(document).on('ready', function () {
+    $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+    });
+    $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+    $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+    });
+    $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+    });
+    $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+    $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+    $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+    });
+    $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+    });
+    $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+    });
+    $('.single-item').slick();
+
+});

@@ -47,30 +47,21 @@
                 <div class="t-header-conainer-part" id="t-header-container">
                     <div class="row align-items-center">
                         <!-- MAIL AND PHONE -->
-                        <div class="col-lg-3 col-md-12 text-md-left text-center">
+                        <div class="col-lg-4 col-md-12 text-md-left text-center">
 
-                        </div>
-
-                        <div class="col-lg-5 col-md-12 text-center text-md-right">
-                            <ul class="list-inline d-inline-block">
-                                <li class="list-inline-item"><a class="m-e-p text-white d-inline-block h5 font-weight-bold" href="callto:01791404169"><span class="fa fa-phone pr-1"></span> 021-6247741</a></li>
-                                <li class="list-inline-item"><a class="m-e-p text-white d-inline-block h5 font-weight-bold" href="mailto:info@gouranggo.com"><span class="fa fa-envelope pr-1"></span> sales@psm-petro.com</a></li>
-                            </ul>
                         </div>
 
                         <!-- SOCIAL ICONS -->
-                        <div class="col-lg-4 col-md-12 text-center text-md-right">
-                            <span class="text-white h5 font-weight-bold">Follow Us On: </span>
+                        <div class="col-lg-8 col-md-12 text-center text-md-right">
                             <ul class="list-inline d-inline-block">
+                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="callto:01791404169"><span class="fa fa-phone pr-1"></span> 021-6247741</a></li>
+                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="mailto:info@gouranggo.com"><span class="fa fa-envelope pr-1"></span> sales@psm-petro.com</a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-facebook-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-pinterest-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-linkedin-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -80,11 +71,10 @@
                 <div class="conainer-part" id="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html"><img class="img-fluid" id="main-logo" src="images/main-logo.png" alt="PSM-PETRO"></a>
-
-                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+                                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-
 
                         <div class="collapse navbar-collapse text-center" id="navigation">
                             <ul class="navbar-nav ml-auto">
@@ -92,21 +82,21 @@
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="our-service.html">Our Service</a>
+                                </li>
 
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Our Service
+                                    <a class="nav-link dropdown-toggle" href="our-products.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Our Poducts
                                     </a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="our-Service.html">Service 1</a>
-                                        <a class="dropdown-item" href="our-Service.html">Service 2</a>
-                                        <a class="dropdown-item" href="our-Service.html">Service 3</a>
+                                        <a class="dropdown-item" href="#">Poducts 1</a>
+                                        <a class="dropdown-item" href="#">Poducts 2</a>
+                                        <a class="dropdown-item" href="#">Poducts 3</a>
                                     </div>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="our-products.html">Our Poducts</a>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="gallery.html">Gallery</a>
                                 </li>
@@ -118,6 +108,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
+                                </li>
                             </ul>                            
                         </div>
                     </nav>
@@ -127,6 +121,87 @@
         <!-- HEADER PART END -->
 
 
+        <!-- The Modal -->
+        <div class="modal" id="getQuoteModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header text-center">
+                        <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-map-marker"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-map-marker"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-circle-o"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-circle-o"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
+                                        <span class="input-group-append bg-white border-left-0">
+                                            <span class="input-group-text bg-transparent">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- START SLIDER SECTION -->
         <section class="slider-part">
             <div class="hero-slider">
@@ -134,289 +209,61 @@
                 <div class="hero-slider-item bg-cover hero-section" data-background="images/hero01.jpg">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-12" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+                            <div class="col-lg-8" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
                                 <h1 class="mb-4">We are the best petroleum services & Products Provider</h1>
                                 <hr align="left" >
-                                <p class="mb-5 text-white h5">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
-
-                                <a href="#" class="btn btn-primary hover-ripple m-2 rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
+                                <p class="mb-5 text-white">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
 
                             </div>
-                            <div class="col-lg-4 getQuoteModalDiv" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".1">
-                                <div id="getQuoteModal" class="">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
 
-                                            <!-- Modal Header -->
-                                            <div class="modal-header text-center">
-                                                <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
-                                            </div>
-
-                                            <!-- Modal body -->
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-calendar"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 text-center">
-                                                            <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="#" class="btn btn-primary hover-ripple m-2 float-right rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
                             </div>
-
-                        </div>                        
+                        </div>
                     </div>
                 </div>
 
-                <div class="hero-slider-item bg-cover hero-section" data-background="images/hero01.jpg">
+                <!-- SLIDER ITEM -->
+                <div class="hero-slider-item bg-cover hero-section" data-background="images/hero02.jpg">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-12" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+                            <div class="col-lg-8" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
                                 <h1 class="mb-4">We are the best petroleum services & Products Provider</h1>
                                 <hr align="left" >
-                                <p class="mb-5 text-white h5">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
-
-                                <a href="#" class="btn btn-primary hover-ripple m-2 rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
+                                <p class="mb-5 text-white">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
 
                             </div>
-                            <div class="col-lg-4 getQuoteModalDiv" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".1">
-                                <div id="getQuoteModal" class="">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
 
-                                            <!-- Modal Header -->
-                                            <div class="modal-header text-center">
-                                                <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
-                                            </div>
-
-                                            <!-- Modal body -->
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-calendar"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 text-center">
-                                                            <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="#" class="btn btn-primary hover-ripple m-2 float-right rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
                             </div>
-
-                        </div>                        
+                        </div>
                     </div>
                 </div>
 
-
-                <div class="hero-slider-item bg-cover hero-section" data-background="images/hero01.jpg">
+                <!-- SLIDER ITEM -->
+                <div class="hero-slider-item bg-cover hero-section" data-background="images/hero04.jpg">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-12" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+                            <div class="col-lg-8" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
                                 <h1 class="mb-4">We are the best petroleum services & Products Provider</h1>
                                 <hr align="left" >
-                                <p class="mb-5 text-white h5">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
-
-                                <a href="#" class="btn btn-primary hover-ripple m-2 rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
+                                <p class="mb-5 text-white">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
 
                             </div>
-                            <div class="col-lg-4 getQuoteModalDiv" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".1">
-                                <div id="getQuoteModal" class="">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
 
-                                            <!-- Modal Header -->
-                                            <div class="modal-header text-center">
-                                                <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
-                                            </div>
-
-                                            <!-- Modal body -->
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
-                                                                <span class="input-group-append bg-white border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-map-marker"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-circle-o"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12">
-                                                            <div class="input-group">
-                                                                <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
-                                                                <span class="input-group-append border-left-0">
-                                                                    <span class="input-group-text bg-transparent">
-                                                                        <i class="fa fa-calendar"></i>
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 text-center">
-                                                            <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="#" class="btn btn-primary hover-ripple m-2 float-right rounded-0 working-science" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".4"><div class="working-science-time">Working Science <br> <span  class="working-science-Year">2015</span></div><div class="working-science-arrow"> <span> &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></span></div></a>
                             </div>
-
-                        </div>                        
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- SLIDER SECTION end -->
@@ -426,7 +273,7 @@
         <section class="funfacts">
             <div class="row p-5 text-center text-white">
                 <!-- FUNFACTS ITEM -->
-                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                     <div class="align-items-center">
                         <img class="img-fluid rounded-circle mx-auto d-block h-60" src="images/icon/22.png" alt="AGREEMENTS">
                         <span class="h4">AGREEMENTS</span>
@@ -434,7 +281,7 @@
                 </div>
 
                 <!-- FUNFACTS ITEM -->
-                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                     <div class="align-items-center">
                         <img class="img-fluid rounded-circle mx-auto d-block h-60" src="images/icon/23.png" alt="DOCUMENT">
                         <span class="h4">DOCUMENT</span>
@@ -442,7 +289,7 @@
                 </div>
 
                 <!-- FUNFACTS ITEM -->
-                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                     <div class="align-items-center">
                         <img class="img-fluid rounded-circle mx-auto d-block h-60" src="images/icon/24.png" alt="WORKSHOP">
                         <span class="h4">WORKSHOP</span>
@@ -450,7 +297,7 @@
                 </div>
 
                 <!-- FUNFACTS ITEM -->
-                <div class="col-md-3 col-6 mb-4 mb-md-0">
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                     <div class="align-items-center">
                         <img class="img-fluid rounded-circle mx-auto d-block h-60" src="images/icon/25.png" alt="PAYMENT">
                         <span class="h4">PAYMENT</span>
@@ -463,11 +310,14 @@
 
 
         <!-- START SERVICE SECTION -->
-        <section class="section" id="services" data-background="images/service.png" style=" background-repeat: no-repeat;background-size: cover;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title text-light">Our Petroleum <span class="text-t-c">Service</span><span class="section-title-border border-center"></span></h2><br>
+        <section class="" id="services" data-background="images/service.png" style=" background-repeat: no-repeat;background-size: cover;">
+            <div class="section section-bottom-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="section-title text-light">Our Petroleum <span class="text-t-c">Service</span><span class="section-title-border border-center"></span></h2>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -550,16 +400,17 @@
 
 
         <!-- START OUR PETROLEUM PRODUCTS SECTION -->
-        <section class="section" id="ourPetroleumProducts" style="background-color: #980015; padding-bottom: 0;padding-top: 40px">
+        <section class="section bg-gray" id="ourPetroleumProducts">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h2 class="section-title text-white">Our Petroleum Products</h2>
+                        <h2 class="section-title text-dark">Our Petroleum <span class="text-t-c">Products</span><span class="section-title-border border-center"></span></h2>
+
                     </div>
                 </div>
             </div>
 
-            <div class="row" style="background-color: #e10d2a;">
+            <div class="row">
                 <div class="col-12">
                     <div id="Products" class="carousel slide" data-ride="carousel">
                         <ul class="carousel-indicators pb-4">
@@ -571,11 +422,11 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row justify-content-between align-items-center">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <h3 class="text-white mb-4">Control unit for choke valve</h3>
                                         <p class="text-white h4">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium. <br><br> Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <img class="img-fluid mx-auto d-block" src="images/product/2.png" alt="Product">
                                     </div>
                                 </div>  
@@ -583,11 +434,11 @@
 
                             <div class="carousel-item ">
                                 <div class="row justify-content-between align-items-center">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <h3 class="text-white mb-4">Control unit for choke valve</h3>
                                         <p class="text-white h4">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium. <br><br> Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <img class="img-fluid mx-auto d-block" src="images/product/3.png" alt="Product">
                                     </div>
                                 </div>  
@@ -595,11 +446,11 @@
 
                             <div class="carousel-item">
                                 <div class="row justify-content-between align-items-center">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <h3 class="text-white mb-4">Control unit for choke valve</h3>
                                         <p class="text-white h4">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium. <br><br> Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <img class="img-fluid mx-auto d-block" src="images/product/4.png" alt="Product">
                                     </div>
                                 </div>  
@@ -607,11 +458,11 @@
 
                             <div class="carousel-item">
                                 <div class="row justify-content-between align-items-center">
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <h3 class="text-white mb-4">Control unit for choke valve</h3>
                                         <p class="text-white h4">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium. <br><br> Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
                                     </div>
-                                    <div class="col-md-6 col-12">
+                                    <div class="col-6">
                                         <img class="img-fluid mx-auto d-block" src="images/product/5.png" alt="Product">
                                     </div>
                                 </div>  
@@ -619,10 +470,10 @@
                         </div>
 
                         <a class="carousel-control-prev" href="#Products" data-slide="prev">
-                            <div class="p-4" style="background-color: rgba(225, 225, 225, 0.5); border-radius: 50%; padding: 15px 20px 10px 12px !important;"><span class="carousel-control-prev-icon"></span></div>
+                            <div class="p-4" style="background-color: #e23c46; "><span class="carousel-control-prev-icon"></span></div>
                         </a>
                         <a class="carousel-control-next" href="#Products" data-slide="next">
-                            <div class="p-4" style="background-color: rgba(225, 225, 225, 0.5); border-radius: 50%; padding: 15px 12px 10px 20px!important;"><span class="carousel-control-next-icon"></span></div>
+                            <div class="p-4" style="background-color: #e23c46; "><span class="carousel-control-next-icon"></span></div>
                         </a>
                     </div>
                 </div>
@@ -632,22 +483,23 @@
 
 
 
-
         <!-- START ABOUT US SECTION -->
         <section class="section" id="aboutUs">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between align-items-center">
                     <div class="col-md-6">
                         <p class="subtitle">About Us</p>
-                        <span class="aboutUsSection-title-border"></span>
-                        <img class="img-fluid float-left  pr-5 mb-3 homeAboutImg" src="images/about.png" alt="About">
+                        <span class="section-title-border"></span>
+                        <img class="img-fluid float-left  pr-5 mb-3" src="images/about.png" alt="About"  style="height: 200px;">
+                        <h2 class="section-title mb-4">About Our Company</h2>
                         <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                        <a href="#" class="btn btn-primary hover-ripple" style="border-radius: 0px;">Read more &nbsp;&nbsp;<span class="fa fa-chevron-right h5"></span><span class="fa fa-chevron-right"></span></a>
                     </div>
 
                     <div class="col-md-6">
-                        <p class="subtitle">Vission<span class="aboutUsSection-m-v-title-border"></span></p>
+                        <p class="subtitle" style="padding-top: 60px;">Vission<span class="section-title-border"></span></p>
                         <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
-                        <p class="subtitle">Mission<span class="aboutUsSection-m-v-title-border"></span></p>
+                        <p class="subtitle">Mission<span class="section-title-border"></span></p>
                         <p class="mb-5 fs-20">Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est.Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
                     </div>
                 </div>
@@ -658,34 +510,34 @@
 
 
         <!-- START ABOUT CEO & FOUNDER  -->
-        <section class="section voiceofChairman" style="background-color: #2c080e;">
+        <section class="section" style="background-color: #2c080e;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-fluid voiceofChairmanImg" src="images/chairman.png" alt="chairman"  style="">
+
+                    <div class="col-md-7">
                         <h2 class="section-title text-light">
                             Voice of Chairman
+                            <span class="section-title-border"></span>
                         </h2>
                         <div class="pl-5">
                             <p class="mb-5 h5 font-italic text-light"> Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium. Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.
-                                <br><br>Laborum sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.<br><br>
-                                Laborum sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
+                                <br><br>Laborum sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. Laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium.</p>
 
+                            <img class="img-fluid pl-5" src="images/signature.png" alt="signature"  style="height: 90px;"><br>
 
-                            <div class="voiceofChairmanSignature">
-                                <img class="img-fluid pl-5" src="images/signature.png" alt="signature"  style="height: 90px;"><br>
-
-                                <h2 class="section-title text-light pt-4 mb-0">Chairman Signature</h2>
-                                <p class="subtitle text-light">Chairman of PSM</p>
-                            </div>
-
+                            <h2 class="section-title text-light pt-4 mb-0">Chairman Signature</h2>
+                            <p class="subtitle text-light">Chairman of PSM</p>
                         </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <!-- chairman IMAGE -->
+                        <img class="img-fluid mx-auto d-block" src="images/chairman.png" alt="chairman"  style="">
                     </div>
                 </div>
             </div>
         </section>
         <!-- END ABOUT CEO & FOUNDER SECTION -->
-
 
 
         <!-- START CLIENTS SAY SECTION -->
@@ -784,14 +636,12 @@
 
 
 
-
         <!-- START OUR PARTNER'S SECTION -->
-        <section class="section position-relative ourClients">
+        <section class="section position-relative">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12 mb-4 mb-md-0 our-clients-border">
                         <h2 class="section-title">OUR CLIENTS</h2>
-                        <span class="our-clientsBorder"></span>
                         <p class="text-right our-clients-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eius tempor incididunt ut labore.</p>
                     </div>
 
@@ -1031,7 +881,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center justify-content-center align-self-center">
+                        <div class="d-flex align-items-center">
                             <img class="img-fluid" src="images/icon/26.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="10">10</span></h4>
@@ -1042,7 +892,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center justify-content-center align-self-center">
+                        <div class="d-flex align-items-center+">
                             <img class="img-fluid" src="images/icon/27.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="2500">2500</span>+</h4>
@@ -1053,7 +903,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center justify-content-center align-self-center">
+                        <div class="d-flex align-items-center">
                             <img class="img-fluid" src="images/icon/28.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="10000">100000</span>+</h4>
@@ -1108,7 +958,7 @@
                                 </div>
 
                                 <div class="col-12 text-center">
-                                    <button type="submit" value="send" class="btn btn-primary hover-ripple">Submit</button>
+                                    <button type="submit" value="send" class="btn btn-primary hover-ripple">send message</button>
                                 </div>
                             </div>
                         </form>
@@ -1129,81 +979,80 @@
                 <div class="container">
                     <div class="row justify-content-between">
                         <!-- FOOTER CONTENT -->
-                        <div class="col-md-3  col-6 mb-5 mb-lg-0">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
                             <!-- LOGO -->
-                            <div class="text-center text-left">
-                                <a class="mb-4" href="index.html"><img class="img-fluid mx-auto d-block footer-logo" src="images/logo-t.png" alt="PSM-PETRO"></a>
-                                <!--<h4>Petroleum Service Limited</h4>-->
-                                <p class="text-light text-left">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            <div class="text-center">
+                                <a class="mb-4 d-inline-block" href="index.html"><img class="img-fluid mx-auto d-block" src="images/logo-t.png" alt="PSM-PETRO" style="height: 150px;"></a>
                             </div>
+
+
+                            <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
+                                labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
+                                commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                                error sit voluptatem.</p>
                         </div>
-
-                        <div class="col-md-3 col-6">
-                            <h4 class="text-white mb-4">Our Services</h4>
-                            <ul class="list-styled">
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- SERVICE LIST -->
-                        <div class="col-md-3 col-6 mb-5">
-                            <h4 class="text-white mb-4">Our Supports</h4>
-                            <ul class="list-styled">
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
-                                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- CONTACT INFO -->
-                        <div class="col-md-3 col-6 mb-5">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <ul class="list-unstyled">
-                                <li class="text-light mb-3"><span class="fa fa-home h4 pr-2 text-t-c"></span> Office- Kh-00, Road #00, City- ABCD, Post Code- 00AB</li>
-                                <li class="text-light mb-3"><span class="fa fa-phone h4 pr-2 text-t-c"></span> 021-6247741</li>
-                                <li class="text-light mb-3"><span class="fa fa-envelope h4 pr-2 text-t-c"></span> sales@psm-petro.com</li>
-                            </ul>
-                        </div>
-
-
-                        <div class="col-md-12 col-12 text-right">
-
-
-                            <!-- SOCIAL LINKS -->
-                            <ul class="list-inline social-icon-alt mb-4 footer-social-icon">
-                                <li class="list-inline-item">
-                                    <h4 class="text-white mb-4">Follow Us On</h4>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="hover-ripple" href="#"><i class="fa fa-instagram"></i></a>
-                                </li>
-                            </ul>
-
-                            <h4 class="text-white mb-4">Subscribe Newsletter</h4>
-                            <form action="#">
-                                <div class="position-relative">
-                                    <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
-                                           placeholder="Enter your email">
-                                    <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <h4 class="text-white mb-4">Our Interior Services</h4>
+                                    <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.</p>
                                 </div>
-                            </form>
-                        </div>
+
+                                <!-- SERVICE LIST -->
+                                <div class="col-md-4 col-sm-12 mb-5">
+                                    <h4 class="text-white mb-4">Our Supports</h4>
+                                    <ul class="list-styled">
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
+                                        <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- CONTACT INFO -->
+                                <div class="col-md-4 col-sm-12 mb-5">
+                                    <h4 class="text-white mb-4">Contact Info</h4>
+                                    <ul class="list-unstyled">
+                                        <li class="text-light mb-3"><span class="fa fa-home h4 pr-2 text-t-c"></span> Office- Kh-00, Road #00, City- ABCD, Post Code- 00AB</li>
+                                        <li class="text-light mb-3"><span class="fa fa-phone h4 pr-2 text-t-c"></span> 021-6247741</li>
+                                        <li class="text-light mb-3"><span class="fa fa-envelope h4 pr-2 text-t-c"></span> sales@psm-petro.com</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 mb-5 text-right">
+                                    
+
+                                    <!-- SOCIAL LINKS -->
+                                    <ul class="list-inline social-icon-alt mb-4 footer-social-icon">
+                                        <li class="list-inline-item">
+                                            <h4 class="text-white mb-4">Follow Us On</h4>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+
+                                    <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+                                    <form action="#">
+                                        <div class="position-relative">
+                                            <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
+                                                   placeholder="Enter your email">
+                                            <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
@@ -1213,7 +1062,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                            <p class="mb-0 text-white"><span class="font-weight-bold"><a href="http://dr.alaponit.com/" class="text-danger" target="blank">DEBDA</a></span> &copy; <script>
+                            <p class="mb-0 text-white"><span class="font-weight-bold"><a href="http://dr.alaponit.com/" class="text-light" target="blank">DEBDA</a></span> &copy; <script>
                                 var CurrentYear = new Date().getFullYear()
                                 document.write(CurrentYear)
                                 </script> All Right Reserved</p>
@@ -1226,6 +1075,7 @@
             </div>
         </footer>
         <!-- FOOTER PART END  -->
+
 
         <!-- START BODY SCROLL TO UP SECTION -->
         <div class="body-scrollup" data-wow-duration="2s">

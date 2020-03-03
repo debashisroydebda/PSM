@@ -47,21 +47,30 @@
                 <div class="t-header-conainer-part" id="t-header-container">
                     <div class="row align-items-center">
                         <!-- MAIL AND PHONE -->
-                        <div class="col-lg-4 col-md-12 text-md-left text-center">
+                        <div class="col-lg-3 col-md-12 text-md-left text-center">
 
                         </div>
 
-                        <!-- SOCIAL ICONS -->
-                        <div class="col-lg-8 col-md-12 text-center text-md-right">
+                        <div class="col-lg-5 col-md-12 text-center text-md-right">
                             <ul class="list-inline d-inline-block">
-                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="callto:01791404169"><span class="fa fa-phone pr-1"></span> 021-6247741</a></li>
-                                <li class="list-inline-item"><a class="text-white d-inline-block h5 font-weight-bold" href="mailto:info@gouranggo.com"><span class="fa fa-envelope pr-1"></span> sales@psm-petro.com</a></li>
+                                <li class="list-inline-item"><a class="m-e-p text-white d-inline-block h5 font-weight-bold" href="callto:01791404169"><span class="fa fa-phone pr-1"></span> 021-6247741</a></li>
+                                <li class="list-inline-item"><a class="m-e-p text-white d-inline-block h5 font-weight-bold" href="mailto:info@gouranggo.com"><span class="fa fa-envelope pr-1"></span> sales@psm-petro.com</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- SOCIAL ICONS -->
+                        <div class="col-lg-4 col-md-12 text-center text-md-right">
+                            <span class="text-white h5 font-weight-bold">Follow Us On: </span>
+                            <ul class="list-inline d-inline-block">
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-facebook-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-pinterest-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-linkedin-square"></i></a></li>
                                 <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                <li class="list-inline-item"><a class="d-inline-block p-1 h5 font-weight-bold" href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -71,10 +80,11 @@
                 <div class="conainer-part" id="container">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="index.html"><img class="img-fluid" id="main-logo" src="images/main-logo.png" alt="PSM-PETRO"></a>
-                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
-                                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+
 
                         <div class="collapse navbar-collapse text-center" id="navigation">
                             <ul class="navbar-nav ml-auto">
@@ -82,14 +92,21 @@
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="our-service.html">Our Service</a>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Our Service
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="our-Service.html">Service 1</a>
+                                        <a class="dropdown-item" href="our-Service.html">Service 2</a>
+                                        <a class="dropdown-item" href="our-Service.html">Service 3</a>
+                                    </div>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#portfolio">Our Poducts</a>
+                                    <a class="nav-link" href="our-products.html">Our Poducts</a>
                                 </li>
-
                                 <li class="nav-item">
                                     <a class="nav-link" href="gallery.html">Gallery</a>
                                 </li>
@@ -101,10 +118,6 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#getQuoteModal">Get Quote</a>
-                                </li>
                             </ul>                            
                         </div>
                     </nav>
@@ -112,87 +125,6 @@
             </div>
         </header>
         <!-- HEADER PART END -->
-
-
-        <!-- The Modal -->
-        <div class="modal" id="getQuoteModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <!-- Modal Header -->
-                    <div class="modal-header text-center">
-                        <div class="text-center h4 font-weight-bold">Get A Free <span class="text-t-c">Quote</span><span class="section-title-border mt-2 ml-5"></span></div>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="originAddress" placeholder="Origin Address" name="originAddress">
-                                        <span class="input-group-append bg-white border-left-0">
-                                            <span class="input-group-text bg-transparent">
-                                                <i class="fa fa-map-marker"></i>
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="destinationAddress" placeholder="Destination Address" name="destinationAddress">
-                                        <span class="input-group-append bg-white border-left-0">
-                                            <span class="input-group-text bg-transparent">
-                                                <i class="fa fa-map-marker"></i>
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="stairs" placeholder="Stairs ( Origin )" name="stairs">
-                                        <span class="input-group-append bg-white border-left-0">
-                                            <span class="input-group-text bg-transparent">
-                                                <i class="fa fa-circle-o"></i>
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="movingSize" placeholder="Moving Size" name="movingSize">
-                                        <span class="input-group-append bg-white border-left-0">
-                                            <span class="input-group-text bg-transparent">
-                                                <i class="fa fa-circle-o"></i>
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="input-group">
-                                        <input type="date" class="form-control" id="moveDate" name="moveDate" placeholder="Move Date">
-                                        <span class="input-group-append bg-white border-left-0">
-                                            <span class="input-group-text bg-transparent">
-                                                <i class="fa fa-calendar"></i>
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-primary m-2 rounded-0">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
         <!-- page title -->
@@ -203,7 +135,7 @@
                         <h2 class="text-white mb-3">Our Service</h2>
                         <!-- breadcrumb -->
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb bg-transparent p-0">
+                            <ol class="breadcrumb bg-transparent p-0 justify-content-center align-self-center">
                                 <li class="breadcrumb-item font-weight-semebold"><a class="text-white" href="index.html">Home</a></li>
                                 <li class="breadcrumb-item font-weight-semebold active text-primary">Our Service </li>
                             </ol>
@@ -215,14 +147,11 @@
         <!-- /page title -->
 
         <!-- START SERVICE SECTION -->
-        <section class="" id="services" data-background="images/service.png" style=" background-repeat: no-repeat;background-size: cover;">
-            <div class="section section-bottom-lg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="section-title text-light">Our Petroleum <span class="text-t-c">Service</span><span class="section-title-border border-center"></span></h2>
-
-                        </div>
+        <section class="section" id="services" data-background="images/service.png" style=" background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title text-light">Our Petroleum <span class="text-t-c">Service</span><span class="section-title-border border-center"></span></h2><br>
                     </div>
                 </div>
             </div>
@@ -299,7 +228,7 @@
                         <div class="col-lg-12 col-sm-12 col-12  mb-lg-0 text-center mt-4 mb-4">
                             <button type="submit" value="send" class="btn btn-primary hover-ripple"  data-toggle="collapse" data-target="#loadMore">Load More</button>
                         </div>
-                    </div>
+                    </div><br>
                     <div id="loadMore" class="collapse row">
                         <div class="col-lg-4 col-sm-6 col-12  mb-lg-0 bdt-1">
                             <div class="card border-0 rounded-0box-shadow p-4">
@@ -372,7 +301,7 @@
         </section>
         <!-- SERVICE SECTION END -->
 
-        <section class="section bg-gray">
+        <section class="section bg-gray ourHappyCustomer">
             <div class="mb-4">
                 <div class="container">
                     <div class="row">
@@ -456,7 +385,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center align-self-center">
                             <img class="img-fluid" src="images/icon/26.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="10">10</span></h4>
@@ -467,7 +396,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center+">
+                        <div class="d-flex align-items-center justify-content-center align-self-center">
                             <img class="img-fluid" src="images/icon/27.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="2500">2500</span>+</h4>
@@ -478,7 +407,7 @@
 
                     <!-- FUNFACTS ITEM -->
                     <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center align-self-center">
                             <img class="img-fluid" src="images/icon/28.png" alt="icon">
                             <div>
                                 <h4 class="text-white mb-0"><span class="count" data-count="10000">100000</span>+</h4>
@@ -533,7 +462,7 @@
                                 </div>
 
                                 <div class="col-12 text-center">
-                                    <button type="submit" value="send" class="btn btn-primary hover-ripple">send message</button>
+                                    <button type="submit" value="send" class="btn btn-primary hover-ripple">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -554,80 +483,81 @@
                 <div class="container">
                     <div class="row justify-content-between">
                         <!-- FOOTER CONTENT -->
-                        <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="col-md-3  col-6 mb-5 mb-lg-0">
                             <!-- LOGO -->
-                            <div class="text-center">
-                                <a class="mb-4 d-inline-block" href="index.html"><img class="img-fluid mx-auto d-block" src="images/logo-t.png" alt="PSM-PETRO" style="height: 150px;"></a>
+                            <div class="text-center text-left">
+                                <a class="mb-4" href="index.html"><img class="img-fluid mx-auto d-block footer-logo" src="images/logo-t.png" alt="PSM-PETRO"></a>
+                                <!--<h4>Petroleum Service Limited</h4>-->
+                                <p class="text-light text-left">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
                             </div>
-
-
-                            <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut
-                                labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea
-                                commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                            <p class="text-light mb-5">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                                error sit voluptatem.</p>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-12">
-                                    <h4 class="text-white mb-4">Our Interior Services</h4>
-                                    <p class="text-light">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.</p>
+
+                        <div class="col-md-3 col-6">
+                            <h4 class="text-white mb-4">Our Services</h4>
+                            <ul class="list-styled">
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- SERVICE LIST -->
+                        <div class="col-md-3 col-6 mb-5">
+                            <h4 class="text-white mb-4">Our Supports</h4>
+                            <ul class="list-styled">
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
+                                <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- CONTACT INFO -->
+                        <div class="col-md-3 col-6 mb-5">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <ul class="list-unstyled">
+                                <li class="text-light mb-3"><span class="fa fa-home h4 pr-2 text-t-c"></span> Office- Kh-00, Road #00, City- ABCD, Post Code- 00AB</li>
+                                <li class="text-light mb-3"><span class="fa fa-phone h4 pr-2 text-t-c"></span> 021-6247741</li>
+                                <li class="text-light mb-3"><span class="fa fa-envelope h4 pr-2 text-t-c"></span> sales@psm-petro.com</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-md-12 col-12 text-right">
+
+
+                            <!-- SOCIAL LINKS -->
+                            <ul class="list-inline social-icon-alt mb-4 footer-social-icon">
+                                <li class="list-inline-item">
+                                    <h4 class="text-white mb-4">Follow Us On</h4>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="hover-ripple" href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                            </ul>
+
+                            <h4 class="text-white mb-4">Subscribe Newsletter</h4>
+                            <form action="#">
+                                <div class="position-relative">
+                                    <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
+                                           placeholder="Enter your email">
+                                    <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
                                 </div>
-
-                                <!-- SERVICE LIST -->
-                                <div class="col-md-4 col-sm-12 mb-5">
-                                    <h4 class="text-white mb-4">Our Supports</h4>
-                                    <ul class="list-styled">
-                                        <li class="mb-3 text-light"><a class="text-light d-block" href="blog.html">Blog</a></li>
-                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Service</a></li>
-                                        <li class="mb-3 text-light"><a class="text-light d-block" href="#">Our Product</a></li>
-                                        <li class="mb-3 text-light"><a class="text-light d-block" href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-
-                                <!-- CONTACT INFO -->
-                                <div class="col-md-4 col-sm-12 mb-5">
-                                    <h4 class="text-white mb-4">Contact Info</h4>
-                                    <ul class="list-unstyled">
-                                        <li class="text-light mb-3"><span class="fa fa-home h4 pr-2 text-t-c"></span> Office- Kh-00, Road #00, City- ABCD, Post Code- 00AB</li>
-                                        <li class="text-light mb-3"><span class="fa fa-phone h4 pr-2 text-t-c"></span> 021-6247741</li>
-                                        <li class="text-light mb-3"><span class="fa fa-envelope h4 pr-2 text-t-c"></span> sales@psm-petro.com</li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-md-12 col-sm-12 mb-5 text-right">
-
-
-                                    <!-- SOCIAL LINKS -->
-                                    <ul class="list-inline social-icon-alt mb-4 footer-social-icon">
-                                        <li class="list-inline-item">
-                                            <h4 class="text-white mb-4">Follow Us On</h4>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="hover-ripple" href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="hover-ripple" href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="hover-ripple" href="#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="hover-ripple" href="#"><i class="fa fa-pinterest"></i></a>
-                                        </li>
-                                    </ul>
-
-                                    <h4 class="text-white mb-4">Subscribe Newsletter</h4>
-                                    <form action="#">
-                                        <div class="position-relative">
-                                            <input type="email" class="form-control border-0 text-white newsletter-form" id="newsletter" name="newsletter"
-                                                   placeholder="Enter your email">
-                                            <button type="submit" class="btn btn-primary btn-subscribe">Subscribe</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>                       
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -637,7 +567,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                            <p class="mb-0 text-white"><span class="font-weight-bold"><a href="http://dr.alaponit.com/" class="text-light" target="blank">DEBDA</a></span> &copy; <script>
+                            <p class="mb-0 text-white"><span class="font-weight-bold"><a href="http://dr.alaponit.com/" class="text-danger" target="blank">DEBDA</a></span> &copy; <script>
                                 var CurrentYear = new Date().getFullYear()
                                 document.write(CurrentYear)
                                 </script> All Right Reserved</p>
@@ -650,7 +580,6 @@
             </div>
         </footer>
         <!-- FOOTER PART END  -->
-
 
         <!-- START BODY SCROLL TO UP SECTION -->
         <div class="body-scrollup" data-wow-duration="2s">
